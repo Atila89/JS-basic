@@ -1,4 +1,4 @@
-
+// Namesten GIT
 
 function ispisidanundelji(danuNedelji) {
     let broj = +danuNedelji
