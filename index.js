@@ -1,27 +1,30 @@
 // Namesten GIT
 
-function ispisidanundelji(danuNedelji) {
-    let broj = +danuNedelji
-    if(!isNaN(broj)){
-        if (broj === 1) console.log("ponedeljak");
-        else if (broj === 2) console.log("utorak");
-        else if (broj === 3) console.log("sreda");
-        else if (broj === 4) console.log("cetvrtak");
-        else if (broj === 5) console.log("petak");
-        else if (broj === 6) console.log("subota");
-        else if (broj === 7) console.log("nedelja");
-        else console.log('ima samo 7 dana a nema ', broj);
+// function ispisidanundelji(danuNedelji) {
+//     let broj = +danuNedelji
+//     if(!isNaN(broj)){
+//         if (broj === 1) console.log("ponedeljak");
+//         else if (broj === 2) console.log("utorak");
+//         else if (broj === 3) console.log("sreda");
+//         else if (broj === 4) console.log("cetvrtak");
+//         else if (broj === 5) console.log("petak");
+//         else if (broj === 6) console.log("subota");
+//         else if (broj === 7) console.log("nedelja");
+//         else console.log('ima samo 7 dana a nema ', broj);
 
-    } else console.log('sine unesi broj a ne string');
+//     } else console.log('sine unesi broj a ne string');
+    
+// }
+
+
+// let dayOfWeek = prompt('Unesi dan u nedelji');
+// ispisidanundelji(dayOfWeek);
+
+
+if (!undefined) {
+    console.log("this is falsy");
     
 }
-
-
-let dayOfWeek = prompt('Unesi dan u nedelji');
-ispisidanundelji(dayOfWeek);
-
-
-
 
 
 
@@ -86,11 +89,11 @@ ispisidanundelji(dayOfWeek);
 
 
 
-let x = 3;
-let y = 7;
-let z = 10;
+// let x = 3;
+// let y = 7;
+// let z = 10;
 
-(x * 3 + 1) === 10 || (y === z) ?  console.log('tacno') : console.log('netacno');
+// (x * 3 + 1) === 10 || (y === z) ?  console.log('tacno') : console.log('netacno');
 
 
 
